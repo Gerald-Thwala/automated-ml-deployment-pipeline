@@ -1,0 +1,35 @@
+# Python-related files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+.venv/
+env/
+venv/
+
+# Virtual environment
+*.egg-info/
+.eggs/
+
+# Logs and debug files
+*.log
+*.out
+*.err
+
+# Model files
+model/model.pkl
+
+# Docker-related files
+*.pid
+*.tar
+docker-compose.override.yml
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
