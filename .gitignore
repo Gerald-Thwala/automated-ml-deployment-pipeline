@@ -33,3 +33,30 @@ docker-compose.override.yml
 # OS-specific files
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# Ignore Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignore Terraform CLI cache directory
+.terraform/
+
+# Ignore variable definition files containing secrets
+terraform.tfvars
+
+# Ignore override files (commonly used for local testing)
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore sensitive credential files
+*.pem
+*.key
+
+# Ignore log and temp files
+*.bak
+*.tmp
